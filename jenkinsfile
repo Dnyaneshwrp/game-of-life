@@ -1,5 +1,5 @@
 pipeline {
-    agent java-8 
+    agent { label 'java-8' } 
     stages {
         stage('source') {
             steps {
