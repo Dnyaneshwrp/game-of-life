@@ -1,5 +1,5 @@
 pipeline {
-    agent jav8 
+    agent java-8 
     stages {
         stage('source') {
             steps {
